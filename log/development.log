@@ -8149,3 +8149,343 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 58ms (Views: 51.8ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:47:12 +0200
+  
+AbstractController::ActionNotFound (The action 'products' could not be found for StaticPagesController):
+  
+actionpack (5.1.3) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:22 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.8ms)
+  Rendered products/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 95ms (Views: 83.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:26 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.4ms)
+  Rendered products/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 68ms (Views: 60.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:27 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.7ms)
+  Rendered products/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 89ms (Views: 84.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:29 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.9ms)
+  Rendered products/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 94ms (Views: 89.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:31 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (2.7ms)
+  Rendered products/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 61ms (Views: 57.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:48:32 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.6ms)
+  Rendered products/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:48:33 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.4ms)
+  Rendered products/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 61ms (Views: 56.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:48:35 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.1ms)
+  Rendered products/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 52ms (Views: 47.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:51:41 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (7.9ms)
+  Rendered products/index.html.erb within layouts/application (25.5ms)
+Completed 500 Internal Server Error in 530ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x007ff95c8ad5b0>:0x007ff95bbb24c8>
+Did you mean?  video_path):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><a href=<%= index_path %>Home</a></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354481280700'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:51:54 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (2.5ms)
+  Rendered products/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 292ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for #<#<Class:0x007ff95c8ad5b0>:0x007ff95bce9b70>):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><a href=<%= index %>Home</a></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354481943020'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:52:10 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.0ms)
+  Rendered products/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for #<#<Class:0x007ff95c8ad5b0>:0x007ff95ca77ee0>):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><a href=<%= index %>>Home</a></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354489025540'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:52:33 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (13.1ms)
+  Rendered products/index.html.erb within layouts/application (27.8ms)
+Completed 500 Internal Server Error in 492ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x007ff95c8ad5b0>:0x007ff95cb05ad8>
+Did you mean?  video_path):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><a href=<%= index_path %>>Home</a></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354489290660'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:53:05 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.3ms)
+  Rendered products/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 324ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x007ff95c8ad5b0>:0x007ff95890b7e0>
+Did you mean?  video_path):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><%= link_to "Home", index_path %></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354454693200'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:53:48 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.5ms)
+  Rendered products/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 358ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages_index' for #<#<Class:0x007ff95c8ad5b0>:0x007ff957169600>
+Did you mean?  static_pages_index_url
+               static_pages_index_path):
+    32:         </div>
+    33:         <div class="navbar-collapse collapse">
+    34:           <ul class="nav navbar-nav navbar-right">
+    35:             <li><%= link_to "Home", static_pages_index %></li>
+    36:             <li><a href="/products">Products</a></li>
+    37:             <li><a href="#about">About</a></li>
+    38:             <li><a href="#Learn">Contact</a></li>
+  
+app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___3090366355218244527_70354442280060'
+Started GET "/" for 127.0.0.1 at 2017-09-08 17:54:02 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (2.5ms)
+  Rendered products/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-08 17:54:07 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 56ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:54:12 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.5ms)
+  Rendered products/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-08 17:54:13 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:54:23 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (5.7ms)
+  Rendered products/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 70ms (Views: 65.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:55:28 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (2.9ms)
+  Rendered products/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 55ms (Views: 50.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:55:30 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (4.4ms)
+  Rendered products/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 74ms (Views: 70.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-08 17:55:32 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:55:33 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.7ms)
+  Rendered products/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 65ms (Views: 60.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2017-09-08 17:55:38 +0200
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2017-09-08 17:55:39 +0200
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (2.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered collection of products/_product.html.erb [6 times] (3.2ms)
+  Rendered products/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 64ms (Views: 58.5ms | ActiveRecord: 2.6ms)
+
+
