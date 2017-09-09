@@ -16721,3 +16721,10 @@ Content-Transfer-Encoding: 7bit
 Completed 200 OK in 65ms (Views: 33.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 21:41:51 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 112ms (Views: 109.4ms)
+
+
