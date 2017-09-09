@@ -39,7 +39,7 @@
             <li class="search-bar">
               <%= form_tag(products_path, method: 'get', local: true) do |form| %>              
                 <%= text_field_tag(:q) %>
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary search-button">
                   Search
                 </button>
               <% end %>

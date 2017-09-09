@@ -7,5 +7,18 @@ class StaticPagesController < ApplicationController
   	@products = Product.limit(3)
   end
 
+
+
+	def thank_you
+		@name = params[:name]
+		@email = params[:email]
+		@message = params[:message]
+		ActionMailer::Base.mail(
+				from: '@email', 
+				to: 'cherian.grundmann@gmail.com', 
+				subject: "New message from your Website #{@name}", 
+				body: @message).deliver_now
+	end
+
 end
 

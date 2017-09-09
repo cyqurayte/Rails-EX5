@@ -16570,3 +16570,118 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 89ms (Views: 84.5ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:19:40 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 308ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:24:52 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 367ms (Views: 354.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:25:06 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 117ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:26:00 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:26:44 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:26:51 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:26:53 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:27:03 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:27:43 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 100ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2017-09-09 19:27:56 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 19:28:17 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66RmV6ha7e5FZnZ6/bdXeY82IyLu3SaQyJfhc6MWVDeC2p7opn+RGd+tDGw7FuP0ljDyW1sWGtETp4j4xe9z1w==", "name"=>"", "email"=>"", "message"=>""}
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 78ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 19:28:33 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66RmV6ha7e5FZnZ6/bdXeY82IyLu3SaQyJfhc6MWVDeC2p7opn+RGd+tDGw7FuP0ljDyW1sWGtETp4j4xe9z1w==", "name"=>"", "email"=>"", "message"=>""}
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 20:29:04 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66RmV6ha7e5FZnZ6/bdXeY82IyLu3SaQyJfhc6MWVDeC2p7opn+RGd+tDGw7FuP0ljDyW1sWGtETp4j4xe9z1w==", "name"=>"Tester", "email"=>"cherian20@gmail.com", "message"=>"Hi there! 1"}
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 84ms (Views: 79.9ms)
+
+
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 20:34:02 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"66RmV6ha7e5FZnZ6/bdXeY82IyLu3SaQyJfhc6MWVDeC2p7opn+RGd+tDGw7FuP0ljDyW1sWGtETp4j4xe9z1w==", "name"=>"Tester", "email"=>"cherian20@gmail.com", "message"=>"Hi there! 1"}
+ActionMailer::Base#mail: processed outbound mail in 422.9ms
+Sent mail to cherian.grundmann@gmail.com (28.4ms)
+Date: Sat, 09 Sep 2017 20:34:04 +0200
+From: @email
+To: cherian.grundmann@gmail.com
+Message-ID: <59b4341c42e5f_29d3fd6144e526c3792b@Cherians-Air.fritz.box.mail>
+Subject: New message from your Website Tester
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi there! 1
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1277ms (Views: 39.7ms)
+
+
