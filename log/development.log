@@ -16749,3 +16749,107 @@ Guggi!
 Completed 200 OK in 253ms (Views: 142.8ms)
 
 
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 22:50:06 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tY+TCz39zugpaiJ5vDbcbTZ95YDVoHs6L3pLDhFFcr7c8Wu0M9iyH7OhWG96l2jgL3s0+WBrR3v0SiKFd7xVXg==", "name"=>"Romli", "email"=>"cherian20@gmail.com", "message"=>"Guggi!"}
+ActionMailer::Base#mail: processed outbound mail in 18.0ms
+Sent mail to cherian.grundmann@gmail.com (86.7ms)
+Date: Sat, 09 Sep 2017 22:50:07 +0200
+From: cherian20@gmail.com
+To: cherian.grundmann@gmail.com
+Message-ID: <59b453ffa82e_29d3fd6144e537038299@Cherians-Air.fritz.box.mail>
+Subject: New message from Romli
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Guggi!
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 278ms (Views: 154.5ms)
+
+
+Started GET "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 22:56:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 22:56:29 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tY+TCz39zugpaiJ5vDbcbTZ95YDVoHs6L3pLDhFFcr7c8Wu0M9iyH7OhWG96l2jgL3s0+WBrR3v0SiKFd7xVXg==", "name"=>"Romli", "email"=>"cherian20@gmail.com", "message"=>"Guggi!"}
+ActionMailer::Base#mail: processed outbound mail in 10.7ms
+Sent mail to cherian.grundmann@gmail.com (14.2ms)
+Date: Sat, 09 Sep 2017 22:56:29 +0200
+From: cherian20@gmail.com
+To: cherian.grundmann@gmail.com
+Message-ID: <59b4557df15fe_29d3fd6144e50dc38383@Cherians-Air.fritz.box.mail>
+Subject: New message from Romli
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Guggi!
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 161ms (Views: 123.8ms)
+
+
+Started GET "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 22:56:40 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/thank_you"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
