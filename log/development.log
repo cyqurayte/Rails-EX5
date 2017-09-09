@@ -16728,3 +16728,24 @@ Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 112ms (Views: 109.4ms)
 
 
+Started POST "/static_pages/thank_you" for 127.0.0.1 at 2017-09-09 22:06:56 +0200
+Processing by StaticPagesController#thank_you as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ob33kcmveWuZcsngokcTULAidHlX+L7TrkRoT6W7SDlhoVOE2O7jshiTFfsIcHOcxJVlSJ1PEi8GX5vYO+F57g==", "name"=>"Romli", "email"=>"cherian20@gmail.com", "message"=>"Guggi!"}
+ActionMailer::Base#mail: processed outbound mail in 21.5ms
+Sent mail to cherian.grundmann@gmail.com (42.5ms)
+Date: Sat, 09 Sep 2017 22:06:56 +0200
+From: cherian20@gmail.com
+To: cherian.grundmann@gmail.com
+Message-ID: <59b449e06bb0b_29d3fd6144e50dc38157@Cherians-Air.fritz.box.mail>
+Subject: New message from your Website Romli
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Guggi!
+  Rendering static_pages/thank_you.html.erb within layouts/application
+  Rendered static_pages/thank_you.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 253ms (Views: 142.8ms)
+
+
