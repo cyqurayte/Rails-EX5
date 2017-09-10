@@ -17,3 +17,14 @@
 .search-bar {
   padding: 10px;
  }
+
+ .devise-links a{
+ 	padding: 10px;
+ 	margin: 6px;
+ 	color: #fff
+ }
+
+.nav li {
+	display: inline-block;
+}
+

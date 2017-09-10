@@ -17,6 +17,10 @@
   </head>
 
   <body>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%=alert %></p>
+
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -45,6 +49,17 @@
               <% end %>
             </li>
           </ul>
+          <div class="devise-links">
+            <ul class="nav pull-right">
+              <% if user_signed_in? %>
+                <li><%= link_to('Logout', destroy_user_session_path, method: :delete) %></li>
+              <% else %>
+                <li><%= link_to('Login', new_user_session_path) %></li>
+                <li><li><%=link_to "..or Sign Up", users_sign_up_path %></li></li>
+              <% end %>
+              </li>   
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -56,5 +71,6 @@
        <p>&copy; 2017 Bike Berlin</p>
        </div>
     </footer>
+
   </body>
 </html>

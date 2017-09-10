@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :users
   resources :products
   resources :orders, only: [:index, :show, :create, :destroy]
   get 'static_pages/about'
@@ -8,6 +10,8 @@ Rails.application.routes.draw do
   get 'static_pages/index'
 
   get 'products/index'
+
+  get 'users/sign_up'
 
   post 'static_pages/thank_you'
 
