@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_user, only: [:show, :edit, :update, :destroy, :orders]
+  before_action :authenticate_user!, except: [:show,:index]
+  load_and_authorize_resource
   # GET /users
   # GET /users.json
   def index
@@ -19,6 +20,12 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+  end
+
+  # GET /users/1/order
+  def order
+    @order = @user.order.create
+    @product = Product.all
   end
 
   # POST /users

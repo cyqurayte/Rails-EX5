@@ -17,9 +17,12 @@
   </head>
 
   <body>
-
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%=alert %></p>
+  <% if notice %>
+    <div id="notice" class="notice alert alert-info fade in"><%= notice %></div>
+  <% end %>
+  <% if alert %>
+    <div id="alert" class="alert alert-warning fade in"><%= alert %></div>
+  <% end %>
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
